@@ -16,14 +16,6 @@ server-scheduling-Instances/
 
 ## 🧩 Data Description
 
-Each instance file contains:
-- **Header** with instance metadata
-- **Node coordinates** or spatial positions
-- **Demand or arrival rate data**
-- **Service characteristics** (optional, depending on version)
-
-For detailed format specifications, refer to [`format_spec.md`](./format_spec.md).
-
 The data is divided into 5 ZIP files. Each zip file contains a collection of text files, each containing the information of all jobs arriving at the server on a given day.
 
 The text file structure is as follows:
