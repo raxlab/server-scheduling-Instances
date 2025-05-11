@@ -33,6 +33,13 @@ pr
 
 The information in p, w, and r follows the format of dictionaries in Python (job ID: information), whereas pr has the format of a Python list.
 
+The 5 ZIP files are:
+- rx_13.zip: 125 instances, between 4 and 13 jobs
+- rx_35.zip: 109 instances, between 14 and 35 jobs.
+- rx_109.zip: 112 instances, between 36 and 109 jobs.
+- rx_485.zip: 123 instances, between 110 and 485 jobs.
+- rx_100000.zip: 188 instances, between 486 and 84654 jobs.
+
 The "results.xls" file has 10 Excel sheets, with the best lower and upper bound (i.e., schedule value) known for that instance. There are two sheets for each set of instances, one with the results considering release dates (ends in "wr") and one with the results without considering release dates (ends in "nr"). 
 
 In all cases, the schedule was evaluated as total completion time plus total energy consumption, as described in Carrasco, Iyengar, and Stein's "Resource Cost Aware Scheduling" [`DOI`](https://doi.org/10.1016/j.ejor.2018.02.059).
