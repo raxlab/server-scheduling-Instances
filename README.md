@@ -53,6 +53,7 @@ You can use the instances directly by cloning this repo.
 If you use these instances in your research, please cite the original article that used the dataset:
 
 Carrasco, R.; Iyengar, G.; Stein, C. (2018), Resource cost aware scheduling, European Journal of Operational Research.
+
 --------
 
 ```cite
